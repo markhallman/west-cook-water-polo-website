@@ -34,7 +34,14 @@ body {
 }
 
 .hero-gradient {
-  background: linear-gradient(135deg, #0066cc 0%, #004499 100%);
+  /* background: linear-gradient(135deg, #0066cc 0%, #004499 100%); */
+  background-image: url('../images/hero-background3.jpg');
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 8vh;
+  background-color: #0066cc; /* Fallback color */
 }
 
 .water-text {
@@ -139,6 +146,16 @@ body {
 .nav-logo {
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.nav-logo-image {
+  height: 2rem;
+  max-height: 2rem;
+  width: auto;
+  max-width: 6rem;
+  margin-right: 0.75rem;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
 .nav-links {
@@ -459,12 +476,14 @@ body {
   font-weight: bold;
   margin-bottom: 1.5rem;
   line-height: 1.2;
+  color: #000000;
 }
 
 .hero-subtitle {
   font-size: 1.5rem;
   margin-bottom: 2rem;
-  color: #dbeafe;
+  color: #ffffff;
+  font-weight: bold;
   max-width: 48rem;
   margin-left: auto;
   margin-right: auto;
@@ -473,7 +492,7 @@ body {
 .hero-description {
   font-size: 1.125rem;
   margin-bottom: 3rem;
-  color: #bfdbfe;
+  color: #ffffff;
   max-width: 32rem;
   margin-left: auto;
   margin-right: auto;
@@ -482,6 +501,15 @@ body {
 .hero-padding {
   padding-top: 6rem;
   padding-bottom: 8rem;
+}
+
+.hero-logo {
+  height: 8rem;
+  max-height: 8rem;
+  width: auto;
+  max-width: 24rem;
+  margin-bottom: 1.5rem;
+  object-fit: contain;
 }
 
 .about-mission-title {
