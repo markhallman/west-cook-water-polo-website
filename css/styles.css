@@ -613,7 +613,7 @@ body {
 
 .program-detail-row {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   font-size: 0.875rem;
   margin-bottom: 0.5rem;
 }
