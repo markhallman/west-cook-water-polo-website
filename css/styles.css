@@ -134,6 +134,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 50;
+  background-color: #16171b;
 }
 
 .nav-container {
@@ -171,7 +172,7 @@ body {
 }
 
 .nav-link {
-  color: #374151;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s ease;
@@ -690,3 +691,75 @@ body {
   display: flex;
   gap: 1rem;
 }
+
+/* Coaches */
+.coaches-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.coach-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.coach-photo-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-shrink: 0;
+  width: 12rem;
+}
+
+.coach-headshot {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: #e5e7eb;
+  margin-bottom: 1rem;
+}
+
+.coach-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #111827;
+  margin: 0 0 0.25rem 0;
+}
+
+.coach-role {
+  color: #0066cc;
+  font-weight: 500;
+  margin: 0 0 1rem 0;
+}
+
+.coach-bio {
+  flex: 1;
+  border-left: 1px solid #e5e7eb;
+  padding-left: 2rem;
+  align-self: stretch;
+}
+
+@media (max-width: 768px) {
+  .coach-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coach-bio {
+    border-left: none;
+    border-top: 1px solid #e5e7eb;
+    padding-left: 0;
+    padding-top: 1.5rem;
+    width: 100%;
+  }
+}
+
+.about-logo {
+  width: 50%;
+  height: auto;
+}
+
