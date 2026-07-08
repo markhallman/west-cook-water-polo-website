@@ -228,6 +228,10 @@ body {
   background-color: #f9fafb;
 }
 
+.section-blue {
+  background: linear-gradient(135deg, #3399ff 0%, #0066cc 100%);
+}
+
 /* Text Styles */
 .text-center {
   text-align: center;
