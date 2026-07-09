@@ -575,6 +575,16 @@ body {
   margin-bottom: 1rem;
 }
 
+.program-badge-fall {
+  background-color: #ffab3c;
+  color: white;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
 .program-title {
   font-size: 1.25rem;
   font-weight: bold;
@@ -635,6 +645,7 @@ body {
 .program-detail-price {
   font-weight: bold;
   color: #0066cc;
+  align-self: flex-end;
 }
 
 .program-schedule-container {
