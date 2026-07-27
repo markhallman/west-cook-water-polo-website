@@ -3,7 +3,7 @@
 // Sends form submissions to info@westcookwaterpolo.com
 
 // Configuration
-$to_email = 'markwhallman@gmail.com'; // Change this to your actual email
+$to_email = 'markhallman@westcookwaterpolo.com'; // Change this to your actual email
 $subject_prefix = 'West Cook Water Polo Contact: ';
 
 // Security headers
