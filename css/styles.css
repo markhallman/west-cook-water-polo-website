@@ -93,6 +93,16 @@ body {
   background-color: #1f2937;
 }
 
+.btn-disabled {
+  background-color: #dc2626;
+  color: white;
+  cursor: not-allowed;
+}
+
+.btn-disabled:hover {
+  background-color: #dc2626;
+}
+
 /* Grid System */
 .grid {
   display: grid;
