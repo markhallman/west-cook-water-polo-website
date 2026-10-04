@@ -619,6 +619,16 @@ body {
   margin-bottom: 1rem;
 }
 
+.program-badge-winter {
+  background-color: #90D5FF;
+  color: white;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
 .program-title {
   font-size: 1.25rem;
   font-weight: bold;
